@@ -2,6 +2,7 @@ body {
 	background-color: black;
 	color: white;
 	font-family: helvetica;
+	margin-left: 20px;		
 }
 
 div {
@@ -23,12 +24,17 @@ div {
 }
 
 .imgtext {
-	vertical-align: middle;
+	height: 184px;
+	margin-top: -92px;
+	position: absolute;
+	top: 50%;
+	margin-left: 20px;
+	margin-right: 20px; 
 }
 
 table, th {
 	font-size: 45px;
-	padding-bottom: 20px;
+	padding-bottom: 20px;		
 }
 
 table, td {
@@ -41,7 +47,7 @@ table {
 	}
 
 ul {
-	font-size: 14px;
+	font-size: 12px;
 	padding-top: 15px;
 }
 
